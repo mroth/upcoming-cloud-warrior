@@ -45,12 +45,12 @@ And things should start running.  You can watch the results by doing `heroku log
 
 
 
-## Doubling or tripling your archive rate for free!
+## Doubling (or tripling) the archive rate
 Bonus points, for example you can do the following to run a second dyno:
 
 	heroku ps:scale seesaw=2
 
-*Important Note:* This will consume 2x the free dyno rate, so you will end up getting charged if you let it keep running for more thean a half month…  _But_ since there are only <10 days left in the Upcoming.org archive, as long as you stop it at the end you should not get charged for anything as you will have still consumed less than 720 dyno hours.
+*Limited time offer!:* This will consume 2x the free dyno rate, so you will end up getting charged if you let it keep running for more thean a half month…  _But_ since there are only <10 days left in the Upcoming.org archive, as long as you stop it at the end you should not get charged for anything as you will have still consumed less than 720 dyno hours.
 
 Note I believe you may need to give Heroku your credit card information before you can spin up extra instances (but they shouldn't bill you if you are careful, see the following.) Here's how Heroku does it's billing, in their own words:
 
@@ -60,7 +60,7 @@ So if you are feeling particularly ambitious, you could actually run 3 instances
 
 ## Cleanup when the project is over
 
-Do `heroku ps:scale seesaw=0` to stop all fighters.
+Do `heroku ps:scale seesaw=0` to stop all warriors.
 
 ## Special thanks
 To Heroku for offering a fantastic service I use for many of my other projects.  If anyone at Heroku feels this is an illegitmite usage of your services please contact me and I'll be happy to shut it down and take these instructions offline!
