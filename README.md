@@ -28,7 +28,7 @@ First, clone this repository to somewhere on your computer:
 
 	git clone http://github.com/mroth/upcoming-cloud-warrior.git
 
-cd into that directory, and then run the following commands:
+Change into that directory (`cd upcoming-cloud-warrior`), and then run the following commands:
 
 	heroku apps:create --buildpack https://github.com/ArchiveTeam/heroku-buildpack-archiveteam-warrior.git
 	heroku config:set WARRIOR_PROJECT=https://github.com/ArchiveTeam/yahoo-upcoming-grab
