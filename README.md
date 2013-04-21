@@ -16,6 +16,8 @@ This basically just uses the [archive team heroku buildpack](https://github.com/
 First, clone this repository to somewhere on your computer:
 
 	git clone https://github.com/mroth/upcoming-cloud-warrior.git
+	
+Optionally, to get credit for your contributions, edit line 4 of setup.sh to set the WARRIOR_DOWNLOADER constant to your nickname.
 
 cd into that directory, and then run the following commands:
 
