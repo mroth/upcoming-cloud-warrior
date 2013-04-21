@@ -1,6 +1,6 @@
 # Upcoming Cloud Warrior
 
-Quick instructions to to get the Upcoming.org Archive Project running on triple heroku instances in the cloud!  For the why, see [this post from Andy](http://waxy.org/2013/04/how_you_can_save_upcoming/).
+Quick instructions to to get the Upcoming.org Archive Project running on triple Heroku instances in the cloud!  For the why, see [this post from Andy](http://waxy.org/2013/04/how_you_can_save_upcoming/).
 
 This basically just uses the [archive team heroku buildpack](https://github.com/ArchiveTeam/heroku-buildpack-archiveteam-warrior) and offers some tweaks but I'm hoping the instructions here make this easier to follow for a new heroku user.
 
@@ -15,7 +15,7 @@ This basically just uses the [archive team heroku buildpack](https://github.com/
 
 First, clone this repository to somewhere on your computer:
 
-	git clone http://github.com/mroth/upcoming-cloud-warrior.git
+	git clone https://github.com/mroth/upcoming-cloud-warrior.git
 
 cd into that directory, and then run the following commands:
 
