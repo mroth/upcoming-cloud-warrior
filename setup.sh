@@ -1,12 +1,14 @@
 #!/bin/bash
+echo "Setting up a cloud warrior for you!"
+
 if [ -z $USER ]; then
   default_host="$USER-upcoming-cloud-warrior"
 else
   default_host="mroth-upcoming-cloud-warrior"
 fi
 
-echo -n "Enter your name for credit or just press enter for default [$default_host]: "
-read name
+echo "Enter your desired name for credit or just press enter for default."
+read -p "[$default_host]: " name
 
 if [ -z $name ]; then
   name=$default_host
