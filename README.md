@@ -50,7 +50,7 @@ Bonus points, for example you can do the following to run a second dyno:
 
 	heroku ps:scale seesaw=2
 
-*Limited time offer!:* This will consume 2x the free dyno rate, so you will end up getting charged if you let it keep running for more thean a half month…  _But_ since there are only <10 days left in the Upcoming.org archive, as long as you stop it at the end you should not get charged for anything as you will have still consumed less than 720 dyno hours.
+*Limited time offer!:* This will consume 2x the free dyno rate, so you will end up getting charged if you let it keep running for more than a half month…  _But_ since there are only <10 days left in the Upcoming.org archive, as long as you stop it at the end you should not get charged for anything as you will have still consumed less than 720 dyno hours.
 
 Note I believe you may need to give Heroku your credit card information before you can spin up extra instances (but they shouldn't bill you if you are careful, see the following.) Here's how Heroku does it's billing, in their own words:
 
