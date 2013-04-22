@@ -48,7 +48,7 @@ And things should start running.  You can watch the results by doing `heroku log
 
 
 
-## Doubling (or tripling) the archive rate
+## Further doubling (or tripling) the archive rate
 Bonus points, for example you can do the following to run a second dyno:
 
 	heroku ps:scale seesaw=2
@@ -66,4 +66,4 @@ So if you are feeling particularly ambitious, you could actually run 3 instances
 Do `heroku ps:scale seesaw=0` to stop all warriors.
 
 ## Special thanks
-To Heroku for offering a fantastic service I use for many of my other projects.  If anyone at Heroku feels this is an illegitmite usage of your services please contact me and I'll be happy to shut it down and take these instructions offline!
+To Heroku for offering a fantastic service I use for many of my other projects.  If anyone at Heroku feels this is an illegitimate usage of your services please contact me and I'll be happy to shut it down and take these instructions offline!
