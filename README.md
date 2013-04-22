@@ -4,6 +4,8 @@ Quick instructions to to get the Upcoming.org Archive Project running on triple 
 
 This basically just uses the [archive team heroku buildpack](https://github.com/ArchiveTeam/heroku-buildpack-archiveteam-warrior) and offers some tweaks but I'm hoping the instructions here make this easier to follow for a new heroku user.
 
+Performance wise I bumped the concurrency way up while reducing the max items so that the dynos restart more frequently, such that the IP address will cycle more often to avoid Yahoo! Error 999 rate limits.
+
 ## Setup and running
 
 ### 1. Heroku setup (if you don't already have it)
@@ -33,6 +35,7 @@ Change into that directory (`cd upcoming-cloud-warrior`), and then run the follo
 	heroku apps:create --buildpack https://github.com/ArchiveTeam/heroku-buildpack-archiveteam-warrior.git
 	heroku config:set WARRIOR_PROJECT=https://github.com/ArchiveTeam/yahoo-upcoming-grab
 	heroku config:set WARRIOR_DOWNLOADER=mroth-upcoming-cloud-warrior
+	heroku config:set WARRIOR_CONCURRENT=8 WARRIOR_MAX_ITEMS=64
 	git push heroku master
 
 Replace your username in the last field if you want direct credit (or keep mine if you prefer to credit these instructions).
